@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<style>
+		img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			align-content: center;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="Css/default.css">
+	<script src="Scripts/default.js"></script>
+
+
+	<title>Business Card Generator</title>
+</head>
+<body>
+	<div id="divmain">
+
+		<div id="divleft">
+			
+		   <fieldset>
+				<legend>Place Your Information</legend>
+			  <label for ="nm">Name </label>
+					<input type="text" name="nm" id="nm" required placeholder="Your pretty name goes here" onKeyUp="reviewFunction()"><br/>
+			  <label for="pos">Position </label>
+			  <input type="text" name="pos" id="pos" required placeholder="Your job title" onKeyUp="reviewFunction()"><br/>
+			  <label for="em">Email Address </label>
+			  <input type="text" name="em" id="em" required placeholder="Your email address username@domain.com" onKeyUp="reviewFunction()"> 
+			<br>
+				<label for="tl">Mobile | Phone | Ext </label>
+				 <input type="text" name="tl" id = "tl" required placeholder="M: (+xx) xx xxxx xxxx | P: xx xxxxxxxx | Ext: xxxx" onKeyUp="reviewFunction()"> <br>
+			</fieldset> 
+		   <br>		
+			</div>
+		<div id="divright"	>
+	<table cellspacing="0" cellpadding="0" width="380" height="750" style="font-family: 'Verdana', 'Tahoma'; font-size: 8pt; background-color:#000005;">
+		<tbody>
+			<tr>
+				<td colspan="4" style="background:none; border:solid 1px #EEE; border-width:1px 0 0 0; height:-100px; width:100%; align-self:auto; margin:0px 0px 0px 0px; padding-top:2px;padding-bottom:2px;"></td>
+			</tr>
+
+			<tr align="center" style="padding-top: 3px;">
+				<td>
+					<a href="https://neweraeducation-eg.com/">
+						<img src="D:\Work\BC Design\Images\NewEra_Logo-transparent.png" alt="New Era">
+					</a>
+				</td>
+			</tr>
+
+			<tr align="center" style="padding-top: 1px;">
+				<td>
+					<h1 id="name" style="color: #c3a37d">Your Full Name</h1>
+					<h3 id="position" style="color: #c3a37d">Your Position</h3>
+				</td>
+			</tr>
+
+			<tr align="margin-left">
+				<td style="padding-left: 50px;">
+					<H3 style="color: #c3a37d"><a id="emaillink" href="mailto:" target="_blank" >Your email address</a></H3>
+					<H3 style="color: #c3a37d">West Mark, B10207 - 6th of October City, Egypt</H3>
+					<H3 style="color: #c3a37d"><a href="https://www.neweraeducation-eg.com" target="_blank">www.neweraeducation-eg.com</a></H3>
+					<H3 id="phone" style="color: #c3a37d">Your Phone Number</H3>
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="4" style="background:none; border:solid 1px #EEE; border-width:0 0 1px 0; height:1px; width:100%; margin:0px 0px 0px 0px; padding-top:2px;padding-bottom:2px;">
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+	</body>
+</html>
